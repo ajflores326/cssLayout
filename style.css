@@ -1,0 +1,39 @@
+.parent{
+    background-color: beige;
+    border: 2px solid black;
+    padding: 5px;
+    height: 150vh;
+}
+
+.parent > div {
+    padding: 5px;
+    /* position: relative; */
+}
+.static {
+    background-color: cadetblue;
+    position: static;
+}
+
+.relative {
+    background-color: chartreuse;
+    position: relative;
+    /* top: 25px; */
+}
+
+.absolute {
+    background-color: crimson;
+    position: absolute;
+    top: 0;
+}
+
+.fixed {
+    background-color:darkorchid;
+    position: fixed;
+    top: 50px;
+}
+
+.sticky {
+    background-color: goldenrod;
+    position: sticky;
+    top: 10px;
+}
